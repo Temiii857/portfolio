@@ -1,0 +1,11 @@
+start = element song {metadata,lyrics}
+metadata= element metadata {album,releaseyear,genre,duration}
+lyrics = element lyrics {verse,chorus,bridge}
+album = element album {attribute ctrl{text}}
+releaseyear = element releaseyear {text,xsd:int}
+genre = element genre {text}
+duration = element duration {"3:28"}
+verse = element verse {attribute n {xsd:int, line}
+chorus = element chorus {line+}
+bridge = element bridge {line+}
+line = element line {text}
