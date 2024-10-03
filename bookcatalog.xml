@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This xml contains a made up book catalog -->
+<?xml-model href="bookcatalog.rnc" type="application/relax-ng-compact-syntax"?>
+<catalog>
+    <book>
+        <title>Harry Potter and the <highlight>Philosopher's Stone</highlight></title>
+        <author>J.K. Rowling</author>
+        <publicationYear>1997</publicationYear>
+        <price>19.99</price>
+        <genre>Fantasy</genre>
+    </book>
+    <book>
+        <title>The <highlight>Hobbit</highlight></title>
+        <author>J.R.R. Tolkien</author>
+        <publicationYear>1937</publicationYear>
+        <price>15.00</price>
+        <genre>Fantasy</genre>
+    </book>
+</catalog>
