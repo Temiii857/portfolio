@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1d1427;
+    color: #f2dafb;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(https://img.itch.zone/aW1nLzU2ODYyNTcucG5n/original/lHFfJA.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+}
+
+header img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 50%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+header {
+    background-color: #2e2c30;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #c491e9;
+    font-weight: 900;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #f2dafb;
+}
+
+nav {
+    background-color: #28262a;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #f2dafb;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #c491e9;
+    color: #ffffff;
+    text-shadow: 0 1px 0px #aa77cf;
+}
