@@ -1,0 +1,86 @@
+body {  
+    background: MistyRose;
+    font-family: Arial, sans-serif;
+    font-size: 20px; /* Set font size to 20px */
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Align all content to the left */
+}
+
+/* Header Styles */
+header {
+    text-align: center; /* Keep the header centered */
+}
+
+h1 {
+    color: MediumVioletRed; /* Set text color to MediumVioletRed */
+    font-size: 2.5em; /* Adjust font size as needed */
+    text-align: center; /* Center the header */
+    margin: 20px 0; /* Add vertical spacing */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 10px;
+    background: MediumVioletRed; /* Navigation background */
+    margin: 0 auto; /* Center the navigation */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: MistyRose;
+    color: MediumVioletRed;
+}
+
+/* Small Image Styles */
+.small-image {
+    max-width: 300px; /* Increase the width to 300px */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 10px auto; /* Center the image */
+    display: block; /* Ensure the image aligns properly */
+}
+
+/* Fun Facts List Styles */
+section.Fun\ Facts ul {
+    list-style: disc; /* Use default bullet points */
+    margin: 20px 0; /* Add vertical margin */
+    padding: 0 20px; /* Add padding for indentation */
+    text-align: left; /* Align text within the list to the left */
+    background: none; /* Remove background */
+}
+
+section.Fun\ Facts ul li {
+    margin-bottom: 10px; /* Add spacing between items */
+    display: list-item; /* Restore the default list-item behavior */
+    align-items: flex-start; /* Ensure alignment with bullet points */
+}
+
+/* Paragraph Styles */
+p {
+    margin: 10px 20px; /* Add some spacing and indent from the left */
+}
+
+/* Hello Kitty Image Styles */
+.hello-kitty-image {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image starts on a new line */
+    margin: 10px auto; /* Center the image */
+    background: none; /* Ensures no background color is applied */
+    border: none; /* Removes any border that might appear as a background effect */
+}
