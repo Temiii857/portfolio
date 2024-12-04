@@ -1,0 +1,143 @@
+body {  
+    background: MistyRose;
+    font-family: Arial, sans-serif;
+    font-size: 20px; /* Set font size to 20px */
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Align all content to the left */
+}
+
+header h1 {
+    color: MediumVioletRed;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+header p {
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+
+h1 {
+    color: MediumVioletRed;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: MediumVioletRed;
+    font-size: 1.8em;
+    border-bottom: 2px solid MediumVioletRed;
+    padding-bottom: 5px;
+    margin: 20px 0 10px;
+}
+
+h3 {
+    color: MediumVioletRed;
+    font-size: 1.5em;
+    margin: 15px 0 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background: MediumVioletRed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: MistyRose;
+    color: MediumVioletRed;
+}
+
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resume h2 {
+    margin-top: 0;
+}
+
+.resume p,
+.resume li {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.resume ul {
+    list-style: square;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.resume ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: MediumVioletRed;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.skills ul li {
+    background: MistyRose;
+    padding: 5px 10px;
+    border: 1px solid MediumVioletRed;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: MediumVioletRed;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .skills ul {
+        grid-template-columns: 1fr;
+    }
+}
