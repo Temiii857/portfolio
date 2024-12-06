@@ -42,8 +42,25 @@ h1 {
 }
 
 .project-image {
-    max-width: 250px;
-    height: auto; 
-    margin: 20px auto; 
-    display: block; 
+    max-width: 60%; /* Decreased width */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid MediumVioletRed; /* Add border to images */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ThinkLink Project Iframe Styles */
+iframe {
+    border: 5px solid MediumVioletRed; /* Add border to iframe */
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    margin: 20px auto; /* Center the iframe */
+    display: block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
