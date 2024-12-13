@@ -1,20 +1,19 @@
 body {  
     background: MistyRose;
     font-family: Arial, sans-serif;
-    font-size: 20px; /* Set font size to 20px */
+    font-size: 20px; 
     margin: 0;
     padding: 0;
-    text-align: left; /* Align all content to the left */
+    text-align: left; 
 }
 
-/* Navigation Styles */
 nav ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     padding: 10px;
-    background: MediumVioletRed; /* Navigation background */
-    margin: 0 auto; /* Center the navigation */
-    display: flex; /* Display items in a row */
-    justify-content: center; /* Center items horizontally */
+    background: MediumVioletRed; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
@@ -42,25 +41,24 @@ h1 {
 }
 
 .project-image {
-    max-width: 60%; /* Decreased width */
+    max-width: 60%; 
     height: auto;
     margin: 20px auto;
     display: block;
-    border: 3px solid MediumVioletRed; /* Add border to images */
+    border: 3px solid MediumVioletRed; 
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-image:hover {
-    transform: scale(1.05); /* Slight zoom effect */
+    transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* ThinkLink Project Iframe Styles */
 iframe {
-    border: 5px solid MediumVioletRed; /* Add border to iframe */
-    border-radius: 10px; /* Rounded corners for a smoother look */
-    margin: 20px auto; /* Center the iframe */
+    border: 5px solid MediumVioletRed; 
+    border-radius: 10px; 
+    margin: 20px auto; 
     display: block;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }

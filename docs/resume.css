@@ -1,10 +1,10 @@
 body {  
     background: MistyRose;
     font-family: Arial, sans-serif;
-    font-size: 20px; /* Set font size to 20px */
+    font-size: 20px; 
     margin: 0;
     padding: 0;
-    text-align: left; /* Align all content to the left */
+    text-align: left; 
 }
 
 header h1 {

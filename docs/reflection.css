@@ -1,20 +1,20 @@
 body {  
     background: MistyRose;
     font-family: Arial, sans-serif;
-    font-size: 20px; /* Set font size to 20px */
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    text-align: center; /* Center all text content */
+    text-align: center; 
 }
 
-/* Navigation Styles */
+
 nav ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     padding: 10px;
-    background: MediumVioletRed; /* Navigation background */
-    margin: 0 auto; /* Center the navigation */
-    display: flex; /* Display items in a row */
-    justify-content: center; /* Center items horizontally */
+    background: MediumVioletRed; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
@@ -47,11 +47,11 @@ h1 {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    text-align: center; /* Center all text inside the content block */
+    text-align: center; 
 }
 
 .content h1, 
 .content h2, 
 .content p {
-    text-align: left; /* Left-align specific elements */
+    text-align: left; 
 }
