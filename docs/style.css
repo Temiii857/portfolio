@@ -58,3 +58,21 @@ nav ul li a:hover {
     font-size: 1.2em;
     margin: 5px 0;
 }
+
+footer {
+    background-color: MistyRose; /* Match body background */
+    color: MediumVioletRed; /* Footer text color */
+    text-align: center;
+    padding: 10px 0; /* Add spacing inside the footer */
+    font-size: 1em; /* Standard font size */
+    border-top: 2px solid MediumVioletRed; /* Simple top border */
+}
+
+footer a {
+    color: MediumVioletRed; /* Match link color */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
