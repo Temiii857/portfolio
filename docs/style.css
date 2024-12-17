@@ -60,19 +60,19 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: MistyRose; /* Match body background */
-    color: MediumVioletRed; /* Footer text color */
+    background-color: MistyRose; 
+    color: MediumVioletRed; 
     text-align: center;
-    padding: 10px 0; /* Add spacing inside the footer */
-    font-size: 1em; /* Standard font size */
-    border-top: 2px solid MediumVioletRed; /* Simple top border */
+    padding: 10px 0; 
+    font-size: 1em; 
+    border-top: 2px solid MediumVioletRed; 
 }
 
 footer a {
-    color: MediumVioletRed; /* Match link color */
-    text-decoration: none; /* Remove underline */
+    color: MediumVioletRed; 
+    text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; 
 }
