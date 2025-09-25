@@ -159,3 +159,8 @@ a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
