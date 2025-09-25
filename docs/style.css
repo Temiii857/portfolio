@@ -1,37 +1,44 @@
 body {  
-    background: MistyRose;
-    font-family: Arial, sans-serif;
-    font-size: 20px; 
+    background: #F5F3FF; 
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; 
+    font-size: 18px;
     margin: 0;
     padding: 0;
     text-align: left; 
+    line-height: 1.6;
+
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav ul {
     list-style: none; 
-    padding: 10px;
-    background: MediumVioletRed; 
+    padding: 12px;
+    background: #9370DB; 
     margin: 0 auto; 
     display: flex; 
     justify-content: center; 
+    border-bottom: 2px solid #6A5ACD;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 18px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background: MistyRose;
-    color: MediumVioletRed;
+    background: #E6E0F8; 
+    color: #6A5ACD;
 }
 
 .centered-header {
@@ -40,39 +47,41 @@ nav ul li a:hover {
     left: 50%; 
     transform: translate(-50%, -50%); 
     background: white; 
-    padding: 20px;
-    border: 3px solid MediumVioletRed; 
+    padding: 25px;
+    border: 3px solid #9370DB; 
     border-radius: 15px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
     text-align: center;
+    max-width: 600px;
 }
 
-.centered-header h1 {
-    color: MediumVioletRed;
-    font-size: 2.8em;
-    margin-bottom: 10px;
+
+.centered-header h1, 
+h1, h2, h3 {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    color: #6A5ACD;
+    margin-bottom: 12px;
 }
 
-.centered-header p {
+.centered-header p, 
+p, li, a {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.1em;
     color: #333;
-    font-size: 1.2em;
-    margin: 5px 0;
+    margin: 6px 0;
+}
+
+
+main {
+    flex: 1;
 }
 
 footer {
-    background-color: MistyRose; 
-    color: MediumVioletRed; 
+    background-color: #9370DB; 
+    color: white; 
     text-align: center;
-    padding: 10px 0; 
-    font-size: 1em; 
-    border-top: 2px solid MediumVioletRed; 
-}
-
-footer a {
-    color: MediumVioletRed; 
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline; 
+    padding: 14px 0; 
+    font-size: 0.95em; 
+    border-top: 2px solid #6A5ACD; 
 }

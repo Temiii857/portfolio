@@ -1,51 +1,82 @@
+
 body {  
-    background: MistyRose;
-    font-family: Arial, sans-serif;
-    font-size: 20px; 
+    background: #F5F3FF; 
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; 
+    font-size: 18px;
     margin: 0;
     padding: 0;
     text-align: left; 
+    line-height: 1.6;
+
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
 
 nav ul {
     list-style: none; 
-    padding: 10px;
-    background: MediumVioletRed; 
+    padding: 12px;
+    background: #9370DB; 
     margin: 0 auto; 
     display: flex; 
     justify-content: center; 
+    border-bottom: 2px solid #6A5ACD;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 18px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background: MistyRose;
-    color: MediumVioletRed;
+    background: #E6E0F8; 
+    color: #4B0082; 
 }
+
+
 h1 {
-    color: MediumVioletRed;
+    color: #6A5ACD;
     font-size: 2.5em;
     text-align: center;
     margin: 20px 0;
 }
+
+h2, h3 {
+    color: #6A5ACD;
+    margin: 15px 0;
+    text-align: center;
+}
+
+
+.Projects {
+    max-width: 900px;   
+    margin: 0 auto;     
+    padding: 20px;
+}
+
+.Projects p {
+    text-align: left;   
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
 
 .project-image {
     max-width: 60%; 
     height: auto;
     margin: 20px auto;
     display: block;
-    border: 3px solid MediumVioletRed; 
+    border: 3px solid #9370DB; 
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -55,10 +86,22 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+
 iframe {
-    border: 5px solid MediumVioletRed; 
+    border: 5px solid #9370DB; 
     border-radius: 10px; 
     margin: 20px auto; 
     display: block;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+footer {
+    background-color: #9370DB; 
+    color: white; 
+    text-align: center;
+    padding: 14px 0; 
+    font-size: 0.95em; 
+    border-top: 2px solid #6A5ACD; 
+    margin-top: auto; 
 }

@@ -1,53 +1,59 @@
 body {  
-    background: MistyRose;
-    font-family: Arial, sans-serif;
-    font-size: 20px; 
+    background: #F5F3FF; 
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; 
+    font-size: 18px; 
     margin: 0;
     padding: 0;
     text-align: left; 
+    line-height: 1.6;
 }
 
+
 header h1 {
-    color: MediumVioletRed;
+    color: #6A5ACD; 
     font-size: 2.5em;
     margin-top: 20px;
+    text-align: center;
 }
 
 header p {
     color: #333;
     font-size: 1.2em;
     margin: 10px 0;
+    text-align: center;
 }
 
 
 h1 {
-    color: MediumVioletRed;
+    color: #6A5ACD;
     font-size: 2.5em;
     text-align: center;
     margin: 20px 0;
 }
 
 h2 {
-    color: MediumVioletRed;
+    color: #6A5ACD;
     font-size: 1.8em;
-    border-bottom: 2px solid MediumVioletRed;
+    border-bottom: 2px solid #9370DB; 
     padding-bottom: 5px;
     margin: 20px 0 10px;
 }
 
 h3 {
-    color: MediumVioletRed;
+    color: #6A5ACD;
     font-size: 1.5em;
     margin: 15px 0 5px;
 }
 
+
 nav ul {
     list-style: none;
-    padding: 10px;
-    background: MediumVioletRed;
+    padding: 12px;
+    background: #9370DB; 
     margin: 0;
     display: flex;
     justify-content: center;
+    border-bottom: 2px solid #6A5ACD;
 }
 
 nav ul li {
@@ -58,14 +64,14 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background: MistyRose;
-    color: MediumVioletRed;
+    background: #E6E0F8; 
+    color: #4B0082; 
 }
 
 
@@ -73,9 +79,10 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 20px auto;
     background: white;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 2px solid #9370DB;
 }
 
 .resume h2 {
@@ -99,14 +106,18 @@ nav ul li a:hover {
     margin-bottom: 5px;
 }
 
+
 a {
-    color: MediumVioletRed;
+    color: #6A5ACD;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #4B0082;
 }
+
 
 .skills ul {
     display: grid;
@@ -118,14 +129,21 @@ a:hover {
 }
 
 .skills ul li {
-    background: MistyRose;
-    padding: 5px 10px;
-    border: 1px solid MediumVioletRed;
-    border-radius: 5px;
+    background: #E6E0F8; 
+    padding: 8px 12px;
+    border: 1px solid #9370DB;
+    border-radius: 6px;
     text-align: center;
     font-weight: bold;
-    color: MediumVioletRed;
+    color: #4B0082;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+.skills ul li:hover {
+    background: #d8c9f2; 
+    transform: scale(1.05);
+}
+
 
 @media (max-width: 768px) {
     nav ul {

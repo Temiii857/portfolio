@@ -1,31 +1,41 @@
 body {  
-    background: MistyRose;
-    font-family: Arial, sans-serif;
-    font-size: 20px; 
+    background: #F5F3FF;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; 
+    font-size: 18px; 
     margin: 0;
     padding: 0;
     text-align: left; 
+    line-height: 1.6;
 }
+
 
 header {
     text-align: center; 
+    padding: 20px 0;
 }
 
 h1 {
-    color: MediumVioletRed; 
+    color: #6A5ACD; 
     font-size: 2.5em; 
     text-align: center; 
     margin: 20px 0; 
 }
 
+h2 {
+    color: #6A5ACD;
+    text-align: center;
+    margin: 15px 0;
+}
+
 
 nav ul {
     list-style: none; 
-    padding: 10px;
-    background: MediumVioletRed; 
+    padding: 12px;
+    background: #9370DB; 
     margin: 0 auto;
     display: flex; 
     justify-content: center; 
+    border-bottom: 2px solid #6A5ACD;
 }
 
 nav ul li {
@@ -36,34 +46,36 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background: MistyRose;
-    color: MediumVioletRed;
+    background: #E6E0F8; 
+    color: #4B0082; 
 }
 
 
 .small-image {
     max-width: 300px; 
     height: auto; 
-    margin: 10px auto; 
+    margin: 20px auto; 
     display: block; 
+    border: 3px solid #9370DB;
+    border-radius: 10px;
 }
 
 
-section.Fun\ Facts ul {
+section.FunFacts ul {
     list-style: disc; 
-    margin: 20px 0; 
-    padding: 0 20px; 
-    text-align: left; 
+    margin: 20px auto; 
+    padding: 0 40px; 
+    max-width: 800px;
     background: none; 
 }
 
-section.Fun\ Facts ul li {
+section.FunFacts ul li {
     margin-bottom: 10px; 
     display: list-item;
     align-items: flex-start; 
@@ -71,7 +83,9 @@ section.Fun\ Facts ul li {
 
 
 p {
-    margin: 10px 20px; 
+    margin: 15px auto; 
+    max-width: 800px; 
+    line-height: 1.7;
 }
 
 
@@ -80,6 +94,15 @@ p {
     height: auto; 
     display: block; 
     margin: 10px auto; 
-    background: none; 
     border: none; 
+}
+
+footer {
+    background-color: #9370DB; 
+    color: white; 
+    text-align: center;
+    padding: 14px 0; 
+    font-size: 0.95em; 
+    border-top: 2px solid #6A5ACD; 
+    margin-top: auto;
 }
