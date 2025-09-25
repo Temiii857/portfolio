@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
 }
 
-
 header {
     text-align: center; 
     padding: 20px 0;
@@ -26,7 +25,6 @@ h2 {
     text-align: center;
     margin: 15px 0;
 }
-
 
 nav ul {
     list-style: none; 
@@ -56,7 +54,6 @@ nav ul li a:hover {
     color: #4B0082; 
 }
 
-
 .small-image {
     max-width: 300px; 
     height: auto; 
@@ -65,7 +62,6 @@ nav ul li a:hover {
     border: 3px solid #9370DB;
     border-radius: 10px;
 }
-
 
 section.FunFacts ul {
     list-style: disc; 
@@ -81,13 +77,11 @@ section.FunFacts ul li {
     align-items: flex-start; 
 }
 
-
 p {
     margin: 15px auto; 
     max-width: 800px; 
     line-height: 1.7;
 }
-
 
 .hello-kitty-image {
     max-width: 150px; 
@@ -107,6 +101,8 @@ footer {
     margin-top: auto;
 }
 
+
+
 @media (max-width: 768px) {
   body {
     font-size: 16px;
@@ -121,13 +117,28 @@ footer {
     font-size: 1.5em;
   }
 
+
   nav ul {
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
 
   nav ul li {
-    margin: 8px 0;
+    margin: 10px 0;
+  }
+
+  
+  section,
+  .Projects,
+  .intro,
+  .resume,
+  .project {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px auto;
   }
 
   .small-image,
