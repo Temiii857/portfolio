@@ -91,3 +91,23 @@ footer {
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0); }
 }
+
+
+.glow {
+  color: #fff;
+  text-shadow: 0 0 5px #0ff,
+               0 0 10px #0ff,
+               0 0 20px #0ff,
+               0 0 40px #0ff;
+}
+
+.hint {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+h1 {
+  cursor: pointer;
+}
