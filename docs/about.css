@@ -170,3 +170,51 @@ footer {
     padding: 8px 10px;
   }
 }
+
+.hk-burst {
+  --burst-size: 7rem;
+  --burst-shift: 40px;
+  --burst-color: #ff3aa7;
+  position: relative;
+  display: block;     
+  margin: 10px auto;  
+  width: max-content;  
+}
+
+.hk-burst > img.hello-kitty-image {
+  position: relative;
+  z-index: 2; 
+  display: block;
+  margin: 0 auto; 
+}
+
+.hk-burst::before,
+.hk-burst::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--burst-size, 7rem);
+  height: var(--burst-size, 7rem);
+  background: var(--burst-color, #ff3aa7);
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.2); 
+  transition:
+    transform 0.45s cubic-bezier(.2,.8,.2,1),
+    opacity 0.45s ease;
+  z-index: 0; 
+  filter: drop-shadow(0 0 10px rgba(255, 58, 167, 0.6));
+}
+
+.hk-burst:hover::before {
+  opacity: 0.9;
+  transform: translate(calc(-50% - var(--burst-shift, 40px)),
+                       calc(-50% - var(--burst-shift, 40px))) scale(1);
+}
+
+.hk-burst:hover::after {
+  opacity: 0.9;
+  transform: translate(calc(-50% + var(--burst-shift, 40px)),
+                       calc(-50% + var(--burst-shift, 40px))) scale(1);
+}
