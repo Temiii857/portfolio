@@ -1,25 +1,23 @@
-window.addEventListener('DOMContentLoaded', init, false);
+window.addEventListener("DOMContentLoaded", init, false);
 
 function init() {
-const title = document.querySelector("h1"); //Select the <h1> element
-const text = title.textContent;
-title.textContent = "";
+    const animatedItems = document.querySelectorAll(
+        ".gallery-header, .project, .reflection-header, .content, .resume-section, .about-profile, .about-section, .fun-facts-section, .floating-image, .small-image, .hello-kitty-image, .project-image"
+    );
 
-//Wave Effect!
-// loop through each character in the text
-for (let i = 0; i < text.length; i++) {
-  let span = document.createElement("span");
-  span.textContent = text[i];
-  span.style.display = "inline-block"; // makes the letters behave individually
-  span.style.animation = `wave 1.5s ease-in-out infinite`; // applied the wave animation
-  span.style.animationDelay = `${i * 0.1}s`;
-  title.appendChild(span);
-}
-//Glow Button!
-  function toggleGlow() {
-    title.classList.toggle("glow"); // toggle glow on/off
-  }
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    }, {
+        threshold: 0.02,
+        rootMargin: "0px 0px -40px 0px"
+    });
 
-
-  title.addEventListener("click", toggleGlow);
+    animatedItems.forEach(item => {
+        item.classList.add("scroll-animate");
+        observer.observe(item);
+    });
 }
